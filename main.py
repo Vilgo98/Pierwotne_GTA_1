@@ -531,7 +531,6 @@ def main():
 
     state = init_game_state()
 
-    # Tworzymy radiowóz w bezpiecznym miejscu
     state['police_cars'].append(create_police_car(state['map_objects']))
 
     running = True
@@ -547,7 +546,6 @@ def main():
                     mouse_pos = pygame.mouse.get_pos()
                     restart_rect, exit_rect = get_ui_rects()
                     if restart_rect.collidepoint(mouse_pos):
-                        # RESTART GRY
                         state = init_game_state()
                         state['police_cars'].append(create_police_car(state['map_objects']))
 
