@@ -120,4 +120,4 @@ python main.py
 
 ## Autor
 
-Mikołaj Mazurek
+Mikołaj Mazurek — WCY23IJ2S1, Wojskowa Akademia Techniczna
